@@ -12,6 +12,8 @@ import ScrollIndicator from "./components/scroll-indicator";
 import TabTest from "./components/custom-tabs/tabs-test";
 import ModalTest from "./components/custom-modal-popup/modal-test";
 import GithubProfileFinder from "./components/github-profile-finder";
+import SearchAutocomplete from "./components/search-autocomplete";
+import TicTacToe from "./components/tic-tac-toe";
 
 function App() {
   return (
@@ -27,11 +29,13 @@ function App() {
      {/*<ScrollIndicator url={'https://dummyjson.com/products?limit=100'} />*/}
      {/* <TabTest />*/}
      {/*   <ModalTest />*/}
-      <GithubProfileFinder />
+     {/* <GithubProfileFinder />*/}
+     {/*<SearchAutocomplete />*/}
+     <TicTacToe />
 
     </div>
   );
 }
 
 export default App;
-// Time 2:43:29
+// Time 4:16:49
